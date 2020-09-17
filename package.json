@@ -21,7 +21,7 @@
     "express": "^4.17.1"
   },
   "engines":{
-    "npm":"9",
-    "node":"5"
+    "node":"9",
+    "npm":"5"
   }
 }
