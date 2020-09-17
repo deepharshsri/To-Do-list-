@@ -1,10 +1,11 @@
 {
-  "name": "pp",
+  "name": "projecttodo",
   "version": "1.0.0",
   "description": "",
-  "main": "jquerry.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/deepharshsri/To-Do-list-/issues"
   },
-  "homepage": "https://github.com/deepharshsri/To-Do-list-#readme"
+  "homepage": "https://github.com/deepharshsri/To-Do-list-#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines":{
+    "npm":"9",
+    "node":"5"
+  }
 }
